@@ -11,14 +11,14 @@ class _app {
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
   brandDescription = [
-    "I'm a loser",
-    "I'm a random nerd",
+    "I'm a god",
+    "I'm a nerd but god",
     "I cant even afford a fucking paid cheat",
     "I have no real friend",
     "Why the fuck am i doing this",
     'Yall will call me paster and shit',
     'Fuck my life',
-    'comming soon.'];
+    'I hate my life.'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
