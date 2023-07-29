@@ -1,2 +1,2 @@
-# retardo.lua
-https://limitrious.github.io/retardo.lua/
+# bubblegum.team
+https://retardcoder.github.io/bubblegum.team/
