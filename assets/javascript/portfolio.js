@@ -1,6 +1,6 @@
 'use strict';
 
-const ipgeolocation = 'https://api.ipgeolocation.io/ipgeo?apiKey=a35fa02c96e84978aacba39d0c311b88';
+const ipgeolocation = 'https://api.ipgeolocation.io/ipgeo?apiKey=3650b2de4fcc4550973dbe29191a0de9';
 
 const timeouts = [];
 
@@ -9,13 +9,13 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'Limitrious',
-      link: 'Limitrious',
+      name: 'ReelElijah',
+      link: 'ReelElijxh',
     },
 
     {
-      name: 'Sefek',
-      link: 'SefeKHVH',
+      name: 'dude',
+      link: 'dude',
     },
 
   ];
@@ -138,7 +138,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #ff0000'>Retardo.lua $$$</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #ff0000'>bubblegum $$$</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
