@@ -36,34 +36,34 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(["---|---",
-  "--|a|--",
-  "-|tar|-",
-  "|etard|",
-  "retardo",
-  "retardo|",
-  "retardo.|",
-  "retardo.l|",
-  "retardo.lu|",
-  "retardo.lua",
-  "retardo.sex $",
-  "retardo.lua $$",
-  "retardo.sex $$$",
-  "retardo.lua $$$",
-  "retardo.sex $$$",
-  "retardo.lua $$",
-  "retardo.sex $",
-  "retardo.lua",
-  "retardo.lu<",
-  "retardo.l<",
-  "retardo.<",
-  "retardo<",
-  "retardo",
-  "ret|rdo",    
-  "re<|>do",
-  "r<-|->o",
-  "<--|-->",
-  "---|---",]);
+  app.titleChanger"\",
+  "/",
+  "|",
+  "b|",
+  "bu|",
+  "bub|",
+  "bubb|",
+  "bubbl|",
+  "bubble|",
+  "bubbleg|",
+  "bubblegu|",
+  "bubblegum|",
+  "bubblegum $|",
+  "bubblegum $$|",
+  "bubblegum $$$|",
+  "bubblegum $$|",
+  "bubblegum $|",
+  "bubblegum|",
+  "bubblegu|",
+  "bubbleg|",
+  "bubble|",
+  "bubbl|",
+  "bubb|",
+  "bu|",  
+  "b|",  
+  "<",
+  ">",
+  "|",]);
   app.iconChanger(['assets/icons/icons/retardo.png']);
 });
 
@@ -121,7 +121,7 @@ const writeLine = (text, speed, timeout, callback) => {
 };
 
 $.getJSON(ipgeolocation, (data) => {
-  writeLine(['Authenticating...', 'Enter your password: ', 'Enter your password: ********', "Granting access to <span style='font-size: 14px; color: #06d;'>[random nigger]</span>...", "Connecting to Israel...", `Connected! <span style='font-size: 14px; color: #0f0;'>[success]</span>`,], 30, () => {
+  writeLine(['Authenticating...', 'Enter your password: ', 'Enter your password: ********', "Granting access to <span style='font-size: 14px; color: #06d;'>[whitelist access]</span>...", "Connecting to Israel...", `Connected! <span style='font-size: 14px; color: #0f0;'>[success]</span>`,], 30, () => {
     if (app.skippedIntro) return;
 
     clearCursor();
@@ -132,8 +132,8 @@ $.getJSON(ipgeolocation, (data) => {
     const country = data.country_name ? data.country_name : 'your country';
 
     writeLine([
-      `hehe nice ip <i style='color: #0f0'>${ip}</i>, sending <i style='color: #ff0000'>154 sex hunters</i> to ${country}, prepare ur ass :yum:.`,
-      `btw if u is a girl pls dm me on discord Limitrious#0764.`,`i'm lonely and horny most of the time :flushed:`, `abinindahilsfakindud`], 30, 900, () => {
+      `ip : <i style='color: #0f0'>${ip}</i>, sending to<i style='color: #ff0000'>154 whitelist list</i> to ${country}, prepare ur ass for premium things :yum:.`,
+      `btw if are you a girl dm me on discord : ReelElijah.`,`i want a girlfriend dm to me :flushed:`, `dude`], 30, 900, () => {
       if (app.skippedIntro) return;
 
       clearCursor();
